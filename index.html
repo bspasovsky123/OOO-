@@ -8,30 +8,38 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">ООО "Инженер"</div>
-            <div class="contact-info">
-                <p>ежедневно с 9:00 до 22:00</p>
-                <p>+7 (000) 000-00-00</p>
-            </div>
-        </nav>
+        <div class="container">
+            <h1>ООО "Инженер"</h1>
+            <p>Техническое обслуживание инженерного оборудования и ремонт жилых зданий</p>
+        </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="hero-text">
-                <h1>Техническое обслуживание инженерного оборудования, жилых многоквартирных домов,</h1>
-                <h2>Капитальный ремонт инженерного оборудования и строительных конструкций</h2>
+        <section class="intro">
+            <div class="container">
+                <h2>Наша цель — обеспечить долговечность и надежность ваших объектов</h2>
+                <p>Мы предоставляем услуги по техническому обслуживанию инженерного оборудования и капитальному ремонту конструкций. Наши специалисты работают с каждым клиентом индивидуально, гарантируя высочайшее качество и результат.</p>
+                <a href="#contact" class="cta-button">Связаться с нами</a>
             </div>
-            <div class="cta">
-                <p>Оставьте заявку и мы с вами свяжемся</p>
-                <a href="#" class="main-button">Получить консультацию</a>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <div class="container">
+                <h3>Оставьте заявку, и мы с вами свяжемся</h3>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="email" name="email" placeholder="Ваш email" required>
+                    <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                    <button type="submit" class="cta-button">Отправить заявку</button>
+                </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 ООО "Инженер". Все права защищены.</p>
+        <div class="container">
+            <p>&copy; 2025 ООО "Инженер". Все права защищены.</p>
+        </div>
     </footer>
 </body>
 </html>
